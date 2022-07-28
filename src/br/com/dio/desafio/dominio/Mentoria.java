@@ -9,8 +9,9 @@ public class Mentoria extends Conteudo {
     }
 
     @Override
-    public Object calcularXp() {
+    public double calcularXp() {
         return XP_PADRAO + 20d;
+    }
 
 
     public LocalDate getData() {
@@ -31,5 +32,4 @@ public class Mentoria extends Conteudo {
     }
 
 
-    }
 }
